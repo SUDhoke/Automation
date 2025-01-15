@@ -1,0 +1,18 @@
+import java.sql.SQLOutput;
+import java.util.*;
+public class Automation_Assignment_06_table_with_loop_for
+{
+    public static void main(String[] args)
+    {
+     int j;
+     Scanner number=new Scanner(System.in);
+     System.out.println("Enter a value");
+     j=number.nextInt();
+
+     for(int i=1;i<=10;i++)
+     {
+         System.out.printf("%d * %d = %d\n",j,i,j*i);
+     }
+
+    }
+}
