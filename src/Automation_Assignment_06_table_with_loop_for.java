@@ -11,7 +11,8 @@ public class Automation_Assignment_06_table_with_loop_for
 
      for(int i=1;i<=10;i++)
      {
-         System.out.printf("%d * %d = %d\n",j,i,j*i);
+         System.out.println(i*j);
+
      }
 
     }
