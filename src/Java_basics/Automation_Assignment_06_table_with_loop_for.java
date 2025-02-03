@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package Java_basics;
+
 import java.util.*;
 public class Automation_Assignment_06_table_with_loop_for
 {
