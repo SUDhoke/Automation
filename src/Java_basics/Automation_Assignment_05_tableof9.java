@@ -1,3 +1,5 @@
+package Java_basics;
+
 import java.util.*;
 public class Automation_Assignment_05_tableof9 {
     public static void main(String[] args) {

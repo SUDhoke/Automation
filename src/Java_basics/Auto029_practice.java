@@ -1,3 +1,5 @@
+package Java_basics;
+
 public class Auto029_practice
 {
     public static void main(String[] args) {

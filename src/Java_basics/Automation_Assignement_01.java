@@ -1,3 +1,5 @@
+package Java_basics;
+
 public class Automation_Assignement_01
 {
     public static void main(String[] args) {
