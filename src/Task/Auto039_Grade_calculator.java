@@ -40,6 +40,28 @@ public class Auto039_Grade_calculator {
 
         }
     }
+
+    public static class MAx_of_Two
+    {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter number1");
+            int number1 = sc.nextInt();
+
+            System.out.println("Enter number2");
+            int number2 = sc.nextInt();
+            if(number1==number2)
+            {
+                System.out.println("equal");
+            } else if(number1>number2)
+            {
+                System.out.println("number1 is max : "+number1);
+            }else {
+                System.out.println("number2 is max : "+number2);
+            }
+            sc.close();
+        }
+    }
 }
 
 

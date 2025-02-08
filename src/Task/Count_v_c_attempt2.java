@@ -32,4 +32,31 @@ public class Count_v_c_attempt2
         System.out.println("vowels count :" +V);
         System.out.println("Consonant count : "+c);
     }
+
+    public static class POS_NEG_IF
+    {
+        public static void main(String[] args) {
+
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter a number");
+            if(!sc.hasNextInt())
+            {
+                System.out.println("only int are allowed ");
+                return;
+            }
+            int number = sc.nextInt();
+
+            //logic number > 0 -> positive
+            //number < 0 then number is negative
+
+            if (number >= 0)
+            {
+                System.out.println("Positive");
+            }
+            else {
+                System.out.println("negative");
+            }
+
+        }
+    }
 }

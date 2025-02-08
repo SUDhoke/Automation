@@ -1,5 +1,7 @@
 package Task;
 
+import java.util.Scanner;
+
 public class Auto037_CLI_Inputs {
     public static void main(String[] args)
     {
@@ -36,6 +38,35 @@ public class Auto037_CLI_Inputs {
         if (age < 0 || age > 100)
         {
             System.out.println("Enter the correct age , this is the incorrect age ");
+        }
+    }
+
+    public static class Eligible_for_vote
+    {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter age ");
+            if(!sc.hasNextInt())
+            {
+                System.out.println("only integers are allowed");
+            }
+            int age = sc.nextInt();
+
+            if(age<0)
+            {
+                System.out.println("age can not be negative / < 0");
+            } else if (age > 100)
+            {
+                System.out.println("too much age ");
+            }
+            else if (age==0)
+            {
+                System.out.println("age can not be 0");
+            } else if (age > 18) {
+                System.out.println("Allowed to vote");
+            } else {
+                System.out.println("not allowed");
+            }
         }
     }
 }
