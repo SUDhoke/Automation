@@ -1,3 +1,5 @@
+package Java_basics;
+
 public class Automation_Assignment_02 {
     public static void main(String[] args) {
         byte a = 127; // 1 Byte & 8 bit
