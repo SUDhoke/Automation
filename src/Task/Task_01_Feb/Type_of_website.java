@@ -7,7 +7,7 @@ public class Type_of_website
     public static void main(String[] args) {
         //Determine Types of website ends with different domain
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a wensite");
+        System.out.println("Enter a website");
         String website = sc.next();
 
         if(website.endsWith(".com"))
