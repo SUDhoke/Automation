@@ -7,22 +7,24 @@ public class Function_selfstudy_001_sumoftwono
     public static void main(String[] args) {
         //sum of two number using function
 
-        Scanner sc = new Scanner(System.in);
+       Scanner sc = new Scanner(System.in);
         System.out.println("Enter num1");
-        int num1 = sc.nextInt();
+        int a = sc.nextInt();
 
-        System.out.println("Enter num2");
-        int num2 = sc.nextInt();
+        System.out.println("enter num2");
+        int b = sc.nextInt();
 
-        int sum_two_no = sum(num1,num2);
-        System.out.println("sum of two number : "+sum_two_no);
+        //calling the function - for return type need to declare
+        int sum_two = sum(a,b);
+        System.out.println("sum of two number :" +sum_two);
 
     }
 
     //create a function -
 
-    static int sum(int a, int b)
+    static int sum (int num1, int num2)
     {
-        return a+b;
+        return num1 + num2;
     }
+
 }
