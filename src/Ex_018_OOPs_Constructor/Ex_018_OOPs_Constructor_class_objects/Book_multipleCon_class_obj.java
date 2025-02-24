@@ -49,6 +49,6 @@ class Book
     void display()
     {
         System.out.println("Display all the details : ");
-        System.out.println("Book_title : "+title+"\n"+"Book_author : "+author+"\n"+"Price : "+price);
+        System.out.println("Book_title : "+this.title+"\n"+"Book_author : "+author+"\n"+"Price : "+price);
     }
 }
