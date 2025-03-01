@@ -7,7 +7,6 @@ public class Array_02
         int[] array = {1,2,3,4,5};
 
         //type2 -array
-
         int[] array2 = new int[5];
         array[0]= 91;
         array[1]= 92;

@@ -13,8 +13,7 @@ public class Switch_browser
         {
             case "chrome" :
                 System.out.println("chrome");
-
-            case "edge" :
+                case "edge" :
                 System.out.println("Edge");
                 break;
             case "firefox":
