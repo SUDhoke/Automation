@@ -1,4 +1,4 @@
-package Ex_24_Abstraction_Interface;
+package Ex_024_Abstraction_Interface;
 
 public class multiple_inheritance
 {

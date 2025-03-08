@@ -1,6 +1,4 @@
-package Ex_24_Abstraction_Interface;
-
-import java.util.Scanner;
+package Ex_024_Abstraction_Interface;
 
 public class Vehicle_abstract
 {
