@@ -13,12 +13,8 @@ public enum Sport implements Game
         @Override
         public void play()
         {
-            System.out.println("Football game :"+football);
-    }
+            System.out.println("Football game :"+football);}
     };
-
-
-
 }
 
 interface Game

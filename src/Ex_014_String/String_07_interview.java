@@ -29,6 +29,16 @@ public class String_07_interview
         System.out.println(s1.equalsIgnoreCase(s10));
         System.out.println("--- --- ---");
         System.out.println(s1.equals(str1));
+        System.out.println("latest................");
+        String str_01 ="test";
+        String str_02 ="Test";
+        String str_03 = "test";
+        String str = new String("Test");
+        System.out.println(str_01==str_03);
+        System.out.println(str_02==str_03);
+        System.out.println(str_01.equals(str_03));
+        System.out.println(str.equalsIgnoreCase(str_03));
+
 
 
 

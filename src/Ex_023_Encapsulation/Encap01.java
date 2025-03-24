@@ -7,7 +7,7 @@ public class Encap01
         VWOLogin v1 = new VWOLogin("sonali","5268a");
         v1.display();
 
-        System.out.println("................................");
+        System.out.println(".................................");
         System.out.println("After changing the username and password");
         v1.password = "anyone can change the password - 123456";
         v1.username = "anyone can change the username - new sonali";

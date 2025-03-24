@@ -8,9 +8,9 @@ public class Decrement_prefix
 
         System.out.println(--a);
         System.out.println(a);
-        //prefix decerement -> value gets decremented first then assigned
+        //prefix decrement -> value gets decremented first then assigned
 
-        // exp and reslt table
+        // exp and result table
         // line no|expression |value
         //7 | NA | a =60
         // 9 | --a ->59 | a = 59
