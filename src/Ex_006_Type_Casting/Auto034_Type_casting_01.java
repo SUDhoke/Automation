@@ -1,4 +1,4 @@
-package EX_006_Type_Casting;
+package Ex_006_Type_Casting;
 
 public class Auto034_Type_casting_01
 {

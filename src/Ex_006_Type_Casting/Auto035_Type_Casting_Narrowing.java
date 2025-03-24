@@ -1,4 +1,4 @@
-package EX_006_Type_Casting;
+package Ex_006_Type_Casting;
 
 public class Auto035_Type_Casting_Narrowing
 {
