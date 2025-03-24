@@ -6,39 +6,33 @@ The exercises range from basic syntax and operators to advanced Object-Oriented 
 ## Repository Structure
 
 Below is a simple table listing the core topics covered in this repository:
-
-#  Topic                          Description
- 1  Java Basics                   Intro to Java syntax and structure
- 2  Variables, Constants          Understanding variables and constants
- 3  Operators                    Exploring Java operators
- 4  Ternary Operator             Mastering the ternary operator
- 5  Increment/Decrement          Using increment and decrement
- 6  Type Casting                 Learning type casting
- 7  IF Condition                 Using if-else statements
- 8  Switch Statement             Understanding switch-case
- 9  For Loop                     Working with for loops
-10  While Loop                   Exploring while loops
-11  Do-While Loop                Mastering do-while loops
-12  Functions                    Writing and using functions
-13  For-Each Loop                Using for-each loops
-14  String Handling              Manipulating strings
-15  String Functions             Using string functions
-16  Arrays                       Working with arrays
-17  OOP: Classes/Objects         Basics of object-oriented programming
-18  Constructors                 Using Constructors
-19  Inheritance                  Mastering inheritance
-20  Polymorphism                 Applying polymorphism
-21  Super Keyword                Using the super keyword
-22  Access Modifiers             Understanding access modifiers
-23  Encapsulation                Implementing encapsulation
-24  Abstraction/Interface        Exploring abstraction and interfaces
-25  Static Keyword               Using static keyword
-26  Enums                        Working with enums
-27  Wrapper Classes              Using wrapper classes
-28  Exception Handling           Managing exceptions
-29  Aggregation                  Understanding aggregation
-30  Generics                     Exploring Generics
-31  Collection Framework         Mastering collections
+#	Topic
+01	Java Basic
+02	Java Basics
+03	Literals
+04	Operators
+05	Type Casting
+06	Ternary Operator
+07	Increment/Decrement Operators
+08	If Condition
+09	Switch Statement
+10	For Loop
+11	While Loop
+12	Do-While Loop
+13	Functions
+14	Strings
+15	String Functions
+16	Arrays
+17	Object-Oriented Programming (OOP)
+18	OOPs - Constructors
+19	OOPs - Part 2
+20	OOPs - Super & Abstraction
+21	Static
+22	ENUM
+23	Wrapper Class
+24	Exceptions
+25	Generics
+26	Collection Framework
 
 To get started, follow these steps:
 
