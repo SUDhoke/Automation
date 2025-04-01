@@ -1,0 +1,275 @@
+{
+	"info": {
+		"_postman_id": "96091203-166d-458d-88e8-5fd4a92b72dd",
+		"name": "📮Project#1 - json-server-Dummy APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40929366",
+		"_collection_link": "https://www.postman.com/dhokesona/workspace/postman-practice-hub/collection/40929366-96091203-166d-458d-88e8-5fd4a92b72dd?action=share&source=collection_link&creator=40929366"
+	},
+	"item": [
+		{
+			"name": "📁 Student_Data",
+			"item": [
+				{
+					"name": "➡️ GET-Student data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students"
+							]
+						},
+						"description": "GET - get method requests is a representation of a resource request. using GET shoud retrive data means fetch resource."
+					},
+					"response": []
+				},
+				{
+					"name": "➡️ Head-Student data",
+					"request": {
+						"method": "HEAD",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students"
+							]
+						},
+						"description": "It is similar to GET - in head we can not see body, we can see Headers only"
+					},
+					"response": []
+				},
+				{
+					"name": "➡️ Post - Create a new student data",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "   {\r\n        \"id\": \"2\",\r\n        \"name\": \"Bob Smith\",\r\n        \"age\": 22,\r\n        \"grade\": \"B\",\r\n        \"subjects\": [\r\n            \"History\",\r\n            \"Physics\",\r\n            \"Chemistry\"\r\n        ],\r\n        \"guardian_id\": 102\r\n   }\r\n    ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students"
+							]
+						},
+						"description": "The post method submits an entity to specified resource. to create the resource and must have the request body."
+					},
+					"response": []
+				},
+				{
+					"name": "➡️ Put - Update student data",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "➡️ Patch - Update the student data",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"4\",\r\n        \"name\": \"Sonali_dhoke\",\r\n        \"age\": 23,\r\n        \"grade\": \"B\",\r\n        \"subjects\": [\r\n            \"History\",\r\n            \"Physics\",\r\n            \"Chemistry\"\r\n        ],\r\n        \"guardian_id\": 104\r\n   }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/students/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students",
+								"4"
+							]
+						},
+						"description": "It applies partial modification to a resource(updtation of 1 or2 fields)"
+					},
+					"response": []
+				},
+				{
+					"name": "➡️ Options - which request are supported",
+					"request": {
+						"method": "OPTIONS",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students"
+							]
+						},
+						"description": "Describes the communication options for the target resource.client sends OPTIONS requests,then server responds with allowed method of the resource."
+					},
+					"response": []
+				},
+				{
+					"name": "➡️ Delete - Delete the student data",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students",
+								"4"
+							]
+						},
+						"description": "Delete the specified resource."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "📁 Student Guardians data",
+			"item": [
+				{
+					"name": "♟️GET - Guardian data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"description": "Fetch the resource/retrieve data"
+					},
+					"response": []
+				},
+				{
+					"name": "♟️ Head - Guardian data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"description": "Simplar to get but can show only header with no response body"
+					},
+					"response": []
+				},
+				{
+					"name": "♟️ Post - Create a new Guardian",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/guardians",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"guardians"
+							]
+						},
+						"description": "post is to create the new resource and must have the request body payload"
+					},
+					"response": []
+				},
+				{
+					"name": "♟️Put - Update the guardian data",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "♟️Patch - Update the data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"description": "update partial modification"
+					},
+					"response": []
+				},
+				{
+					"name": "♟️Options - Which method supported",
+					"request": {
+						"method": "OPTIONS",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/guardians",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"guardians"
+							]
+						},
+						"description": "client send request to the server and server responds with the supported methods in header"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/guardians/test",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"guardians",
+								"test"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
