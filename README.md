@@ -12,6 +12,11 @@ This repository contains API testing projects using Postman, with test plans and
 
 ![image](https://github.com/user-attachments/assets/a6541db5-088f-4fd3-b4ac-04142acbb4a8)
 
+✅ Usage Instructions
+Import the relevant Postman collections and environment files.
+Refer to the Test Plan documents for details on objectives and scope.
+Follow the test cases in Excel to execute test scenarios.
+Run and review the requests in Postman to validate functionality.
 
 
 
