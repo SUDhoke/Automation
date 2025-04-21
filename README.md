@@ -19,23 +19,15 @@ git clone https://github.com/SUDhoke/Automation.git
 🧪 API Testing Projects
 This repository contains API testing projects using Postman, with test plans and test cases to support both SOAP and RESTful APIs.
 
-![image](https://github.com/user-attachments/assets/7bcf363c-e031-45a7-b2f6-126f5883ae72)
 
-
-
-
-Environment Name	File Name
-Production	Prod Environment.postman_environment.json
-
+![image](https://github.com/user-attachments/assets/556d699f-888b-42d3-88da-6348cfc76b14)
 
 ✅ Usage Instructions
 Import the relevant Postman collections and environment files.
-
 Refer to the Test Plan documents for details on objectives and scope.
-
 Follow the test cases in Excel to execute test scenarios.
-
 Run and review the requests in Postman to validate functionality.
+
 
 
 
