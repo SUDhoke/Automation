@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/401d2b60-194d-435c-89d8-d944020a8459)# Automation Repository
-
+Automation Repository
 Welcome to the **Automation Repository**! This repository contains a collection of Java programming exercises designed to help you master fundamental concepts in Java programming. 
 The exercises range from basic syntax and operators to advanced Object-Oriented Programming (OOP) principles and Java features.
 
@@ -21,7 +20,8 @@ git clone https://github.com/SUDhoke/Automation.git
 🧪 API Testing Projects
 This repository contains API testing projects using Postman, with test plans and test cases to support both SOAP and RESTful APIs.
 
-![image](https://github.com/user-attachments/assets/f8d4a737-9e0c-4399-9e2b-03dfcfff3d97)
+![image](https://github.com/user-attachments/assets/7bcf363c-e031-45a7-b2f6-126f5883ae72)
+
 
 
 
