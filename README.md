@@ -7,6 +7,8 @@ The exercises range from basic syntax and operators to advanced Object-Oriented 
 ![image](https://github.com/user-attachments/assets/bf11b13a-ca15-4f0f-956c-9b3e0fb21990)
 
 
+🧪 API Testing Projects
+This repository contains API testing projects using Postman, with test plans and test cases to support both SOAP and RESTful APIs.
 
 
 
