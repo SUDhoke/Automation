@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "d4b36c76-8133-4fec-b6e9-b8929a53b343",
+		"name": "Project#4 - Data Driven Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "40929366",
+		"_collection_link": "https://www.postman.com/dhokesona/workspace/postman-practice-hub/collection/40929366-d4b36c76-8133-4fec-b6e9-b8929a53b343?action=share&source=collection_link&creator=40929366"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//test case 1 to check the status code as 201\r",
+							"pm.test(\"TC#01 Verify the status code as 201\",function(){\r",
+							"    var statuscode = pm.response.code\r",
+							"    console.log(statuscode)\r",
+							"    pm.expect(statuscode).to.be.equals(201)\r",
+							"})\r",
+							"//test case 2 verify that body response should not be null\r",
+							"pm.test(\"TC#2 verify that response should not be null\",function(){\r",
+							"    var tc_response = pm.response.json()\r",
+							"    console.log(tc_response)\r",
+							"    pm.expect(tc_response).not.to.be.null\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" :\"{{email}}\",\r\n    \"password\" : \"{{password}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://reqres.in/api/register/preprod"
+			},
+			"response": []
+		}
+	]
+}
